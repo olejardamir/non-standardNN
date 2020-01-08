@@ -3,7 +3,7 @@
 // Idea is to have a neural network capable of generating the random data
 // This DOES NOT conform any known standards and is entirely made up by me.
 // This works simply by having a random-number generator that can be trained to generate random, pseudo random, or constants.
-// The inputs can be 0-dimensional as well as 1-4 dimensional, except the decimals for optimizing, we can add more dimensions too.
+// The inputs can be 0-dimensional as well as 1-4 dimensional, except the decimals for optimizing, we can add more dimensions too (total of 8-dimensions).
 // The inputs were chosen by guess and observation of the Java's Random class, so this can change.
 // To make the neural net generate a random number, pass a null, otherwise use a lesser (or greater?) dimension with setters
 // the variables were set to Random class constants, while nanotime is also set as a constant and not a current time.
