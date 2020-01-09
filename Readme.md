@@ -1,2 +1,1 @@
-If this can solve the XOR with a single neuron, I will continue to expand this idea onto a fully-functional neural net...
-works with 2 neurons one joined to another as 3d
+Since the XOR test passed, this is now an idea worth pursuing. Therefore it is a project in an initial stage, still not sure what shape or a form it will take.
