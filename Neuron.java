@@ -93,14 +93,15 @@ public class Neuron {
 
     //THE MAIN LOGIC !!!
     private double nextDouble(
-        Long nanoTime,
-        Long multiplier,
-        Long mask,
-        Long addend
+            Long nanoTime,
+            Long multiplier,
+            Long mask,
+            Long addend
     ) {
         if(nanoTime==null) nanoTime = this.nanotime;
         if(multiplier==null) multiplier = this.multiplier;
         if(mask==null) mask = this.mask;
+        if(addend==null) addend = this.addend;
 
 
         AtomicLong seed = new AtomicLong(nanoTime);
@@ -117,7 +118,7 @@ public class Neuron {
         return (((long) ((int) (nextseed1 >>> (bits1))) << bits2) + (int) (nextseed >>> (bits3))) * DOUBLE_UNIT;
     }
 
-//--------GETTERS AND SETTERS ARE BELOW---------------
+    //--------GETTERS AND SETTERS ARE BELOW---------------
     public int getBits1() {
         return bits1;
     }
